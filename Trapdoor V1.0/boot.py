@@ -9,5 +9,3 @@ username = input("Enter your username: ")
 password = input("Enter your password: ")
 print("Welcome" ,username) 
 time.sleep(5.5)
-
-
