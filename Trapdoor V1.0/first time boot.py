@@ -1,8 +1,8 @@
 #This is the first time boot
 import time
-print('Hello and welcome to Trapdoor V1.0')
-print("Let's begin what do you want your username to be?")
-username = input('Enter your desired username: ')
+print("Hello and welcome to Trapdoor V1.0")
+print ("Let's begin what do you want your username to be?")
+username = input("Enter your desired username: ")
 print("Thats a nice username", username)
 print ("Now how old are you?")
 age = input('Enter your age: ')
