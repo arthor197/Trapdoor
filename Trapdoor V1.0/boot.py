@@ -14,14 +14,20 @@ while 1:
 	else:
 		print("There is no option to boot to", Booting)
 while 1:
-	username = input("Enter your username: ")
-	if username==("ksmit799"): break
+	print("Enter Your Username")
+	username = input("Username: ")
+	usernameFile = open("username.txt","r")
+	if username==usernameFile.read():
+		break
 	else:
 		print("There is no user called", username)	
 while 1:
-	password = input("Enter your password: ")
-	if password==("temple121"): break
+	print("Enter Your Password")
+	password = input("Password: ")
+	passwordFile = open("password.txt","r")
+	if password==passwordFile.read():
+		break
 	else:
-		print("Sorry that password is incorrect please try again!")		
-print("Welcome", username)	
+		print("That Password is incorrect")
+print("Welcome", username)
 time.sleep(5.5)
