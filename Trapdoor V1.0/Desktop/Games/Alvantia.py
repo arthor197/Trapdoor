@@ -1,4 +1,19 @@
+#All Imports
 import time
+#All Dictionery's
+def listtown():
+	print("Go to:")
+	print("	Armoury")
+	print("	Blacksmith")
+	print("	Inn")
+	print("Or you can:")
+	print("	Save")
+def inn():
+	print("Hello would you like to:")
+	print("	1.Buy a room")
+	print("	2.Have a beer or")
+	print("	3.Gamble")	
+#Start of game	
 print('Hello and welcome to Alvantia')
 print("Let's begin what is your name?")
 name = input("Name: ")
@@ -50,5 +65,26 @@ elif attack1=="Defend" or attack1=="defend" or attack1=="2":
 	time.sleep(2.2)
 	print("Crap you mutter suddenly realizing that you have no money")
 print("Now what should i do?")
-print("Hint: Type List for a list of actions you can do")			
+print("Hint Type List for a list of actions you can do")
+print("Try it know!")
+while 1:
+	user = input(": ")
+	if user=="List" or user=="list":
+		listtown()
+		break
+	else:
+		print("Type List!")
+print("Type Inn to rest for the night!")
+while 1:
+	user1 = input(": ")
+	if user1=="Inn" or user1=="inn":
+		print("You walk over to the Inn")
+		break
+	else:
+		print("Type Inn!")
+inn()
+print("Buy a room for the night!")
+while 1:
+	Inn1 = input(": ")
+	if Inn1=="1." or Inn1=="1" or Inn1=="Buy a room for the night":
 time.sleep(5.5)	
