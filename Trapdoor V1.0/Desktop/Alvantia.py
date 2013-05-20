@@ -49,5 +49,6 @@ if attack1=="attack" or attack1=="Attack" or attack1=="1":
 elif attack1=="Defend" or attack1=="defend" or attack1=="2":
 	time.sleep(2.2)
 	print("Crap you mutter suddenly realizing that you have no money")
-print("Now what should i do?")			
+print("Now what should i do?")
+print("Hint: Type List for a list of actions you can do")			
 time.sleep(5.5)	
