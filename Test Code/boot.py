@@ -32,7 +32,7 @@ if check==checkFile.read():
 				break
 			else:
 				print("That Password is incorrect")
-	print("Welcome", username)
+    print("Welcome",username)
 else:
 	print("Hello and welcome to Trapdoor V1.0")
 	print ("Let's begin what do you want your username to be?")
@@ -55,8 +55,8 @@ else:
 		print("Your password will be", password)
 		user = input("So all this information correct?: ")
 		if user=="No" or user=="no" or user=="n" or user=="N":
-			print("Okay then quit and try again") 
-		elif user=="Yes" or user=="yes" or user=="y" or user=="Y": break	
+			print("Okay then quit and try again")
+		elif user=="Yes" or user=="yes" or user=="y" or user=="Y": break
 		usernameFile = open("username.txt","w")
 		usernameFile.write(username)
 		usernameFile.close()
@@ -67,6 +67,6 @@ else:
 		usernameFile.write("1")
 		usernameFile.close()
 	print("Setting up Files")
-	time.sleep(2.2)	
+	time.sleep(2.2)
 	print("Ok close this window and re-run boot.py to log in!")
 time.sleep(7.7)
